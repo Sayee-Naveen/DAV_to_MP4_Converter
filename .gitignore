@@ -1,0 +1,42 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec
+
+# Test files & media outputs
+*.dav
+*.DAV
+*.mp4
+*.mkv
+*.avi
+*.jpg
+*.jpeg
+*.png
+frame_analysis/
+
+# Local binaries (FFmpeg is automatically handled via imageio-ffmpeg or system PATH)
+bin/
+*.exe
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.user
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
