@@ -7,6 +7,7 @@ __pycache__/
 build/
 dist/
 *.spec
+*.zip
 
 # Test files & media outputs
 *.dav

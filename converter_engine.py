@@ -13,17 +13,25 @@ import time
 from typing import Callable, Optional, Dict, Any, List
 
 def get_ffmpeg_path() -> str:
-    """Finds the FFmpeg executable."""
-    # 1. Bundled in PyInstaller
-    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
-        bundle_bin = os.path.join(sys._MEIPASS, 'bin', 'ffmpeg.exe')
-        if os.path.isfile(bundle_bin):
-            return bundle_bin
-        bundle_root = os.path.join(sys._MEIPASS, 'ffmpeg.exe')
-        if os.path.isfile(bundle_root):
-            return bundle_root
+    """Finds the FFmpeg executable across standalone exe, frozen bundles, and portable setups."""
+    # 1. Bundled in PyInstaller (_MEIPASS temp directory)
+    if getattr(sys, 'frozen', False):
+        if hasattr(sys, '_MEIPASS'):
+            for sub in [
+                os.path.join(sys._MEIPASS, 'bin', 'ffmpeg.exe'),
+                os.path.join(sys._MEIPASS, 'ffmpeg.exe')
+            ]:
+                if os.path.isfile(sub):
+                    return sub
+        exe_dir = os.path.dirname(sys.executable)
+        for sub in [
+            os.path.join(exe_dir, 'bin', 'ffmpeg.exe'),
+            os.path.join(exe_dir, 'ffmpeg.exe')
+        ]:
+            if os.path.isfile(sub):
+                return sub
 
-    # 2. Local directory bin/ffmpeg.exe
+    # 2. Local directory bin/ffmpeg.exe relative to script
     base_dir = os.path.dirname(os.path.abspath(__file__))
     local_bin = os.path.join(base_dir, 'bin', 'ffmpeg.exe')
     if os.path.isfile(local_bin):
