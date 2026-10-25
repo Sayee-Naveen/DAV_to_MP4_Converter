@@ -1,17 +1,36 @@
-MIT License
+COMMUNITY & NON-COMMERCIAL LICENSE
+(Commercial Rights Reserved)
 
-Copyright (c) 2026 Sayee-Naveen
+Copyright (c) 2026 Sayee-Naveen (sayeenaveenjs@gmail.com)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. GRANT OF LICENSE (FREE FOR PERSONAL & NON-COMMERCIAL USE)
+Permission is hereby granted, free of charge, to any individual, educational
+institution, non-profit organization, or community member to use, study, copy,
+and run this Software for personal, privacy, educational, and strictly 
+non-commercial purposes, subject to the conditions herein.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. COMMERCIAL RESTRICTIONS
+Any commercial use, commercial distribution, or monetization of this Software,
+in whole or in part, in source or binary form, is STRICTLY PROHIBITED without
+prior written authorization and a commercial agreement from the copyright holder.
 
+Specifically, you MAY NOT:
+  a. Sell, rent, lease, sub-license, or charge any fee for the Software, its
+     source code, compiled binaries, or derivative works.
+  b. Bundle, embed, or integrate this Software or its engine into any paid product,
+     commercial application, subscription service, or commercial surveillance hardware.
+  c. Re-brand, white-label, or monetize the Software under any commercial pretense.
+
+3. COMMERCIAL LICENSING & INQUIRIES
+Parties interested in commercial distribution, resale, enterprise deployment,
+proprietary integration, or custom licensing must obtain a commercial license.
+Please contact the author directly to negotiate commercial terms and royalties:
+  
+  Contact: sayeenaveenjs@gmail.com
+  Author:  Sayee-Naveen
+  GitHub:  https://github.com/Sayee-Naveen/DAV_to_MP4_Converter
+
+4. DISCLAIMER OF WARRANTY
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

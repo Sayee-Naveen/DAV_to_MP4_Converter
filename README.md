@@ -72,6 +72,13 @@ DAV_to_MP4_Converter/
 
 ---
 
-## 📄 License
+## 📄 License & Commercial Terms
 
-This project is licensed under the [MIT License](LICENSE) - free to use, modify, and distribute.
+This software is released under a **Community & Non-Commercial License**:
+
+- **Free for Personal Use:** Free of charge for homeowners, individuals, students, researchers, and non-profits who need an offline, privacy-first tool to convert and view their surveillance footage.
+- **Commercial Restrictions:** Selling, renting, monetizing, or bundling this software into commercial or paid products without permission is strictly prohibited.
+- **Commercial Inquiries & Licensing:** If you wish to use, distribute, bundle, or license this application commercially, please contact the author to arrange commercial terms and royalties:
+  - **Email:** [sayeenaveenjs@gmail.com](mailto:sayeenaveenjs@gmail.com)
+  - **Author:** Sayee-Naveen
+  - See full [LICENSE](LICENSE) for details.

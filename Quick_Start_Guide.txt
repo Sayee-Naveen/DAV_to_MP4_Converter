@@ -1,0 +1,24 @@
+===============================================================
+DAV to MP4 Converter - Standalone Windows Edition (v1.0)
+===============================================================
+
+100% Offline Surveillance Video Converter for Windows (64-bit)
+Author: Sayee-Naveen (sayeenaveenjs@gmail.com)
+GitHub: https://github.com/Sayee-Naveen/DAV_to_MP4_Converter
+
+FEATURES:
+- Truly Standalone: Requires NO Python, NO FFmpeg installation, NO command prompt.
+- Ultra Fast: Converts 1-hour CCTV (.dav) footage to MP4 in 2-5 seconds (Stream Copy).
+- 1080N Aspect Fix: Corrects squashed 960x1080 CCTV video to natural 16:9 widescreen.
+- Direct VLC Playback: Includes "Play in VLC" button right next to completed files.
+- 100% Private: All video processing stays on your device.
+
+HOW TO RUN:
+Just double-click "DAV_to_MP4_Converter.exe"!
+Drag and drop your .dav files or folders into the window and click "Convert to MP4".
+
+LICENSE & TERMS:
+Free for personal, educational, non-commercial, and privacy-oriented use.
+Commercial use, resale, bundling, or monetization is strictly prohibited without 
+prior written permission. For commercial licensing, contact: sayeenaveenjs@gmail.com
+===============================================================
